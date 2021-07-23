@@ -20,14 +20,14 @@ require './phpmailer/src/SMTP.php';
   // Receiver's Email
 --------------------------------------------- */
 
-$toEmail = "your-email@website.com"; // Replace Your Email Address
+$toEmail = "boudetantoine0@gmail.com"; // Replace Your Email Address
 
 
 /* --------------------------------------------
   // Sender's Email
 --------------------------------------------- */
 
-$fromEmail = "no-reply@website.com";  // Replace Company's Email Address (preferably currently used Domain Name)
+$fromEmail = $_POST['email'];  // Replace Company's Email Address (preferably currently used Domain Name)
 $fromName = "Company Name"; // Replace Company Name
 
 
