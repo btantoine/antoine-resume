@@ -1,0 +1,128 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <title>Antoine - Personal Portfolio</title>
+  <meta name="description" content="Antoine resume online">
+
+  <!-- Web Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheet
+============================== -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css" />
+  <!-- Font Awesome Icon -->
+  <link rel="stylesheet" type="text/css" href="vendor/font-awesome/css/all.min.css" />
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" type="text/css" href="vendor/owl.carousel/assets/owl.carousel.min.css" />
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" type="text/css" href="vendor/magnific-popup/magnific-popup.min.css" />
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+</head>
+
+<!-- <body class="side-header" data-bs-spy="scroll" data-bs-target="#header-nav" data-bs-offset="1"> -->
+
+<!-- Preloader -->
+<div class="preloader preloader-dark">
+  <div class="lds-ellipsis">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
+<!-- Preloader End -->
+
+<!-- Document Wrapper   
+=============================== -->
+<div id="main-wrapper">
+  <section id="fliingo-project" class="section bg-dark-1">
+    <h1 class="text-center m-5 text-white">Fliingo.com</h1>
+    <p class="text-center m-5 text-white">I started building a website about trip planning. Enjoying this project, I
+      also build a app for iOS and macOS.<br /><a href="https://www.fliingo.com" target="_blank">www.fliingo.com</a> -
+      <a href="https://www.fliingo.com" target="_blank">www.fliingo.app</a>
+    </p>
+  </section>
+  <section id="fliingo-project" class="section bg-dark-2">
+    <div class="container px-lg-5">
+      <!-- Heading -->
+      <div class="position-relative d-flex text-center mb-5">
+        <h2 class="text-24 text-white-50 opacity-1 text-uppercase fw-600 w-100 mb-0">Architecture</h2>
+        <p class="text-9 text-white fw-600 position-absolute w-100 align-self-center lh-base mb-0">How did I architect
+          this project?<span
+            class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span> </p>
+      </div>
+      <h5 class="text-center m-5 text-white">No code but important part ... </h5>
+      <div class="features-bloc-container m-5">
+        <div class="feature-bloc1 bg-indigo">
+          <h3 class="text-center">Purpose - Design - User Experience</h3>
+          <p>I wrote down every screen, feature and purpose of the app.<br />Then I sketch the app to
+            create a beatiful design and focus on a great user experience.</p>
+        </div>
+        <div class="feature-bloc2 bg-img">
+        </div>
+      </div>
+      <h5 class="text-center m-5 text-white">Architecture - App</h5>
+      <div class="features-bloc-container m-5">
+        <div class="feature-bloc3 bg-indigo-inverse">
+          <h3 class="text-center">MVVM Architecture</h3>
+          <p>Let’s consider this quick example of the MVVM module for a SwiftUI app. This is a example taken online. I
+            use the same architecture to update my view with api request for example.</p>
+          <p>Model: a data container</p>
+          <img class="img-fluid d-block px-5" src="images/code1.png" alt="">
+          <p>View: a SwiftUI view</p>
+          <img class="img-fluid d-block px-5" src="images/code2.png" alt="">
+          <p>ViewModel: an ObservableObject that encapsulates the business logic and allows the View to observe changes
+            of the state</p>
+          <img class="img-fluid d-block px-5" src="images/code3.png" alt="">
+          <p>In this simplified example, when the View appears on the screen, the onAppear callback calls
+            loadCountries() on the ViewModel, triggering the networking call for loading the data inside WebService.
+            ViewModel receives the data in the callback and pushes the updates through @Published variable countries,
+            observed by the View.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+</div>
+<!-- Document Wrapper end -->
+
+<!-- Back to Top
+============================================= -->
+<a id="back-to-top" class="rounded-circle" data-bs-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i
+    class="fa fa-chevron-up"></i></a>
+
+<!-- JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Easing -->
+<script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+<!-- Appear -->
+<script src="vendor/jquery.appear/jquery.appear.min.js"></script>
+<!-- Images Loaded -->
+<script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<!-- Counter -->
+<script src="vendor/jquery.countTo/jquery.countTo.min.js"></script>
+<!-- Parallax Bg -->
+<script src="vendor/parallaxie/parallaxie.min.js"></script>
+<!-- Typed -->
+<script src="vendor/typed/typed.min.js"></script>
+<!-- Owl Carousel -->
+<script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+<!-- isotope Portfolio Filter -->
+<script src="vendor/isotope/isotope.pkgd.min.js"></script>
+<!-- Magnific Popup -->
+<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+<!-- Custom Script -->
+<script src="js/theme.js"></script>
+</body>
+
+</html>
